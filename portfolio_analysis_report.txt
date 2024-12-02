@@ -1,0 +1,79 @@
+
+        Comprehensive Portfolio Analysis Report
+        =====================================
+        
+        1. Portfolio Overview
+        -------------------
+        Asset Allocation:
+- AAPL: 20.0%
+- GOOGL: 20.0%
+- MSFT: 20.0%
+- AMZN: 20.0%
+- META: 20.0%
+
+Benchmark: SPY
+Analysis Period: 2023-11-30 to 2024-11-27
+        
+        2. Performance Metrics
+        -------------------
+        
+        Total Return: 36.64%
+        Annual Return: 36.81%
+        Daily Volatility: 20.23%
+        Sharpe Ratio: -23.25
+        Information Ratio: 0.31
+        
+        
+        3. Risk Analysis
+        --------------
+        
+        Value at Risk (95%): nan%
+        Conditional VaR (95%): nan%
+        Maximum Drawdown: -14.43%
+        Beta: 1.29
+        Alpha: -4.45%
+        
+        
+        4. Technical Analysis
+        ------------------
+        
+AAPL:
+- RSI: 63.19 (Neutral)
+- MACD: 1.03 (Bullish)
+
+GOOGL:
+- RSI: 47.32 (Neutral)
+- MACD: -1.37 (Bearish)
+
+MSFT:
+- RSI: 53.25 (Neutral)
+- MACD: 0.69 (Bullish)
+
+AMZN:
+- RSI: 56.62 (Neutral)
+- MACD: -0.68 (Bearish)
+
+META:
+- RSI: 49.51 (Neutral)
+- MACD: -0.63 (Bearish)
+        
+        5. Predictive Analysis
+        -------------------
+        
+        Predicted Return (Next Period): -0.54%
+        Prediction Confidence: 98.82%
+        
+        
+        6. Investment Recommendations
+        -------------------------
+        Based on the analysis:
+- AAPL: Hold with bullish bias
+- GOOGL: Hold with cautious stance
+- MSFT: Hold with bullish bias
+- AMZN: Hold with cautious stance
+- META: Hold with cautious stance
+
+Portfolio Adjustment Suggestions:
+- Consider reducing technology sector exposure
+- Consider adding defensive stocks to reduce volatility
+        
