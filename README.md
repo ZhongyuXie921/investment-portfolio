@@ -45,15 +45,10 @@ The dashboard includes:
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/yourusername/portfolio-analysis-dashboard.git
 cd portfolio-analysis-dashboard
-```
-
-2. Install required packages:
-```bash
-pip install -r requirements.txt
 ```
 
 ## Project Structure
@@ -90,11 +85,29 @@ python main.py
 The tool generates various interactive visualizations and reports:
 
 ### Interactive Dashboard
-![Dashboard Preview](portfolio_dashboard.png)
-*Interactive dashboard showing portfolio performance, risk metrics, and technical indicators*
+The tool generates an interactive HTML dashboard (`portfolio_dashboard.html`) that includes:
+1. Portfolio Performance Chart
+2. Asset Allocation Pie Chart
+3. Risk Metrics Radar Chart
+4. Technical Indicators Time Series
+5. Return Distribution Histogram
+6. Correlation Matrix Heatmap
 
-### Analysis Report Sample
+Users can interact with the dashboard to:
+- Zoom in/out on charts
+- Hover over data points for detailed information
+- Toggle different metrics on/off
+- Download the charts as PNG files
+
+### Sample Analysis Report
+The tool generates a comprehensive analysis report (`portfolio_analysis_report.txt`) that includes:
+
 ```
+Comprehensive Portfolio Analysis Report
+=====================================
+
+1. Portfolio Overview
+-------------------
 Asset Allocation:
 - AAPL: 20.0%
 - GOOGL: 20.0%
@@ -102,10 +115,23 @@ Asset Allocation:
 - AMZN: 20.0%
 - META: 20.0%
 
-Performance Metrics:
-- Total Return: 36.64%
-- Annual Return: 36.81%
-- Daily Volatility: 20.23%
+2. Performance Metrics
+-------------------
+Total Return: 36.64%
+Annual Return: 36.81%
+Daily Volatility: 20.23%
+Sharpe Ratio: -23.25
+Information Ratio: 0.31
+
+3. Technical Analysis
+------------------
+AAPL:
+- RSI: 63.19 (Neutral)
+- MACD: 1.03 (Bullish)
+MSFT:
+- RSI: 53.25 (Neutral)
+- MACD: 0.69 (Bullish)
+[...]
 ```
 
 ## Dependencies
